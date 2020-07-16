@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "MixinC00Handshake",
+    "MixinHandshakeMessageHandler",
     "MixinMinecraft",
     "MixinNetHandlerPlayClient",
     "MixinNetworkManager"

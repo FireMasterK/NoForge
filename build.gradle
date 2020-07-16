@@ -102,7 +102,8 @@ jar {
             "MixinConfigs": 'mixins.noforge.json',
             "tweakClass": 'org.spongepowered.asm.launch.MixinTweaker',
             "TweakOrder": 0,
-            "FMLCorePlugin": 'net.ccbluex.noforge.injection.MixinLoader'
+            "FMLCorePlugin": 'net.ccbluex.noforge.injection.MixinLoader',
+			"FMLCorePluginContainsFMLMod": 'true'
     )
 }
 
